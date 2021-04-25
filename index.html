@@ -3,7 +3,7 @@
 
 <head>
     <title>owu! | home</title>
-    <meta name="description" content="owu = osu! + web | The unnofficial web port of the popular rythm game 'osu!'">
+    <meta name="description" content="owu = osu! + web | The unofficial web port of the popular rythm game 'osu!'">
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
     <meta name="google-site-verification" content="FalRyMESMla_aNiqbchdi99psz00gmU3H8EUJOPfx2s"/>
     <link rel="icon" href="favicon.png">
@@ -60,14 +60,14 @@
     <!--Main page-->
     <div class="main-page" id="main-page">
         <div class="main-content">
-            <div class="announcement">Announcement: Stable Release!</div>
+            <div class="announcement">Announcement: <a href="https://owu.vercel.app/changes.html">Changelog</a> page is here!</div>
             <br>
             <!-- filled in with live plays html-->
             <div class="index-area">
-                <h2>Random beatmaps</h2>
-                <a onclick="genRandomList()" class="more" style="cursor:pointer;">Randomize</a>
+                <h2>Popular beatmaps</h2>
+                <a href="hot.html" class="more">See more Popular Beatmaps</a>
                 <hr />
-                <div class="beatmap-list" id="beatmap-list-random">
+                <div class="beatmap-list" id="beatmap-list-hot">
                 <!-- Beatmaps will be here -->
                 </div>
             </div>
@@ -80,26 +80,26 @@
                 </div>
             </div>
             <div class="index-area">
-                <h2>Latest tracks</h2>
-                <a href="new.html" class="more">See more Latest Tracks</a>
-                <hr />
-                <div class="beatmap-list" id="beatmap-list-new">
-                <!-- Beatmaps will be here -->
-                </div>
-            </div>
-            <div class="index-area">
-                <h2>Favorite Tracks</h2>
-                <a href="local.html" class="more">See all favorite tracks</a>
+                <h2>Favorited Beatmaps</h2>
+                <a href="local.html" class="more">See all favorited Beatmaps</a>
                 <hr />
                 <div class="beatmap-list" id="beatmap-list-liked">
                 <!-- Beatmaps will be here -->
                 </div>
             </div>
             <div class="index-area">
-                <h2>Popular Tracks</h2>
-                <a href="hot.html" class="more">See more Popular Tracks</a>
+                <h2>Latest Beatmaps</h2>
+                <a href="new.html" class="more">See all latest Beatmaps</a>
                 <hr />
-                <div class="beatmap-list" id="beatmap-list-hot">
+                <div class="beatmap-list" id="beatmap-list-new">
+                <!-- Beatmaps will be here -->
+                </div>
+            </div>
+            <div class="index-area">
+                <h2>Random Beatmaps<h2>
+                <a onclick="genRandomList()" class="more" style="cursor:pointer;">Randomize</a>
+                <hr />
+                <div class="beatmap-list" id="beatmap-list-random">
                 <!-- to be filled in script -->
                 </div>
             </div>
